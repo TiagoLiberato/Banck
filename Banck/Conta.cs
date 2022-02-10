@@ -13,15 +13,7 @@ namespace Banck
         public int Numero { get; set; }
 
 
-        public void deposito(double valor)
-        {
-            this.Saldo += valor;
-        }
-
-        public double ConsultaSaldoDisponivel()
-        {
-            return this.Saldo + this.Limite;
-        }   
+       
         
     }
 }
